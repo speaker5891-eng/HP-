@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>有限会社 林鐵工所 | 群馬県利根郡昭和村の鉄骨・溶接 | 創業100年</title>
+    <meta name="description" content="群馬県利根郡昭和村の有限会社林鐵工所。創業100年の実績と信頼。鉄骨専用CAD、最新加工機、精密な溶接技術で、大型倉庫から店舗まで高品質な鉄骨建築を提供します。群馬で鉄工所をお探しならお任せください。">
+    <meta property="og:title" content="有限会社 林鐵工所 | 群馬県の鉄骨・溶接のプロフェッショナル">
+    <meta property="og:description" content="群馬県昭和村で創業100年。1mmにこだわる職人技術で、地域の鉄骨建築を支えます。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="work-01.jpg">
+    
+    <!-- 構造化データ（LocalBusiness） -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "有限会社 林鐵工所",
+      "image": "work-01.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "赤城原992-1",
+        "addressLocality": "昭和村",
+        "addressRegion": "群馬県利根郡",
+        "postalCode": "379-1207",
+        "addressCountry": "JP"
+      },
+      "telephone": "0278-21-2588",
+      "url": "https://hayashi-ironworks-gunma.com",
+      "priceRange": "要見積もり",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:30",
+        "closes": "17:30"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.5683", 
+        "longitude": "139.0658"
+      }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Noto Sans JP', sans-serif;
+        background-color: #020617;
+        /* Subtle grid pattern for "blueprint" feel */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 50px 50px;
+      }
+      
+      /* Custom scrollbar for entire site (WIX iframe optimization) */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020617; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ea580c; 
+      }
+
+      /* Custom scrollbar for chat */
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+
+      /* Slow Zoom Animation for Hero */
+      @keyframes kenburns {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.1); }
+      }
+      .animate-kenburns {
+        animation: kenburns 20s ease-out infinite alternate;
+      }
+
+      /* Fade In Up Animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translate3d(0, 30px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+      
+      .delay-100 { animation-delay: 0.1s; }
+      .delay-200 { animation-delay: 0.2s; }
+      .delay-300 { animation-delay: 0.3s; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-orange-500 selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
